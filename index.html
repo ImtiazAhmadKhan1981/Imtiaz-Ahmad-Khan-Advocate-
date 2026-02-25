@@ -1,0 +1,321 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    
+<title>Imtiaz Ahmad Khan Advocate</title>    
+    
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">    
+    
+<style>    
+*{    
+margin:0;    
+padding:0;    
+box-sizing:border-box;    
+scroll-behavior:smooth;    
+}    
+    
+body{    
+font-family:'Poppins',sans-serif;    
+color:#fff;    
+}    
+    
+body::before{    
+content:"";    
+position:fixed;    
+width:100%;    
+height:100%;    
+background:url('https://images.unsplash.com/photo-1589994965851-a8f479c573a9') no-repeat center center/cover;    
+filter:brightness(0.4);    
+z-index:-1;    
+}    
+    
+nav{    
+background:#0f172a;    
+padding:15px 8%;    
+display:flex;    
+justify-content:space-between;    
+align-items:center;    
+position:sticky;    
+top:0;    
+z-index:1000;    
+}    
+    
+.logo{    
+display:flex;    
+align-items:center;    
+gap:10px;    
+font-family:'Playfair Display',serif;    
+font-size:20px;    
+color:#0ea5a4;    
+}    
+    
+nav ul{    
+list-style:none;    
+display:flex;    
+gap:25px;    
+}    
+    
+nav ul li a{    
+text-decoration:none;    
+color:#fff;    
+font-weight:500;    
+transition:0.3s;    
+}    
+    
+nav ul li a:hover{    
+color:#0ea5a4;    
+}    
+    
+section{    
+padding:100px 10%;    
+}    
+    
+h1,h2{    
+font-family:'Playfair Display',serif;    
+color:#0ea5a4;    
+margin-bottom:20px;    
+}    
+    
+.hero{    
+text-align:center;    
+}    
+    
+.hero h1{    
+font-size:55px;    
+font-weight:700;    
+}    
+    
+.hero p{    
+font-size:20px;    
+margin-top:15px;    
+}    
+    
+.quote{    
+margin-top:25px;    
+background:#1e293b;    
+display:inline-block;    
+padding:15px 25px;    
+border-left:4px solid #0ea5a4;    
+}    
+    
+.services,.why,.testimonials{    
+display:grid;    
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));    
+gap:30px;    
+}    
+    
+.card{    
+background:#1e293b;    
+padding:25px;    
+border-radius:10px;    
+transition:0.4s;    
+border-top:3px solid #0ea5a4;    
+}    
+    
+.card:hover{    
+transform:translateY(-8px);    
+box-shadow:0 10px 25px rgba(0,0,0,0.6);    
+}    
+    
+.profile{    
+display:flex;    
+flex-wrap:wrap;    
+gap:40px;    
+align-items:center;    
+}    
+    
+.profile img{    
+width:280px;    
+border-radius:10px;    
+box-shadow:0 10px 20px rgba(0,0,0,0.5);    
+}    
+    
+form{    
+max-width:500px;    
+display:flex;    
+flex-direction:column;    
+gap:15px;    
+}    
+    
+input,textarea,select{    
+padding:12px;    
+border:none;    
+border-radius:6px;    
+}    
+    
+button{    
+background:#0ea5a4;    
+color:#fff;    
+padding:12px;    
+border:none;    
+font-weight:600;    
+cursor:pointer;    
+transition:0.3s;    
+border-radius:6px;    
+}    
+    
+button:hover{    
+background:#14b8a6;    
+}    
+    
+.success{    
+display:none;    
+background:#16a34a;    
+padding:15px;    
+margin-top:15px;    
+border-radius:5px;    
+}    
+    
+.map-container{    
+margin-top:30px;    
+border-radius:10px;    
+overflow:hidden;    
+box-shadow:0 10px 25px rgba(0,0,0,0.6);    
+}    
+    
+footer{    
+background:#0f172a;    
+text-align:center;    
+padding:20px;    
+}    
+</style>    
+</head>    
+    
+<body>    
+    
+<nav>    
+<div class="logo">    
+<i class="fas fa-scale-balanced"></i>    
+Imtiaz Ahmad Khan Advocate    
+</div>    
+    
+<ul>    
+<li><a href="#home">Home</a></li>    
+<li><a href="#about">About</a></li>    
+<li><a href="#services">Services</a></li>    
+<li><a href="#location">Location</a></li>    
+<li><a href="#why">Why Choose Us</a></li>    
+<li><a href="#testimonials">Testimonials</a></li>    
+<li><a href="#consult">Consultation</a></li>    
+</ul>    
+</nav>    
+    
+<section id="home" class="hero">    
+<h1>Expert Property & Land Dispute Lawyer in Phoolpur, Azamgarh</h1>    
+<p>15+ Years of Dedicated Legal Experience</p>    
+<div class="quote">    
+“Committed to Justice, Integrity and Strong Legal Representation.”    
+</div>    
+</section>    
+    
+<section id="about">    
+<h2>About Advocate</h2>    
+<div class="profile">    
+<img src="imtiaz.jpg">    
+<p>    
+Imtiaz Ahmad Khan is a dedicated Property Lawyer practicing at Phoolpur Tehsil, Azamgarh for over 15 years.    
+He specializes in land disputes, registry, title verification and legal advisory.    
+Known for professionalism, integrity and client-focused approach.    
+Office Timing: <strong>10:00 AM – 5:00 PM</strong>    
+</p>    
+</div>    
+</section>    
+    
+<section id="services">    
+<h2>Legal Services</h2>    
+<div class="services">    
+<div class="card">Property Registration & Registry</div>    
+<div class="card">Land Dispute Resolution</div>    
+<div class="card">Title Verification & Documentation</div>    
+<div class="card">Partition & Ownership Cases</div>    
+<div class="card">Real Estate Legal Advisory</div>    
+<div class="card">Revenue & Tehsil Matters</div>    
+</div>    
+</section>    
+    
+<section id="location">    
+<h2>Our Location</h2>    
+<p>Click on the map to open in Google Maps.</p>    
+    
+<div class="map-container">    
+<a href="https://www.google.com/maps/search/?api=1&query=Imtiaz+Ahmad+Khan+Advocate+Phoolpur+Azamgarh" target="_blank">    
+<iframe    
+src="https://www.google.com/maps?q=Imtiaz+Ahmad+Khan+Advocate+Phoolpur+Azamgarh&output=embed"    
+width="100%"    
+height="400"    
+style="border:0;"    
+allowfullscreen=""    
+loading="lazy">    
+</iframe>    
+</a>    
+</div>    
+</section>    
+    
+<section id="why">    
+<h2>Why Choose Us</h2>    
+<div class="why">    
+<div class="card">15+ Years Experience</div>    
+<div class="card">Transparent Legal Process</div>    
+<div class="card">Strong Representation</div>    
+<div class="card">Client Confidentiality</div>    
+</div>    
+</section>    
+    
+<section id="testimonials">    
+<h2>Client Testimonials</h2>    
+<div class="testimonials">    
+<div class="card">"Very professional and honest legal guidance." – Client A</div>    
+<div class="card">"Solved my land dispute efficiently." – Client B</div>    
+<div class="card">"Highly recommended property lawyer." – Client C</div>    
+</div>    
+</section>    
+    
+<section id="consult">    
+<h2>Book Consultation</h2>    
+    
+<form action="https://formsubmit.co/areebkhqn3@gmail.com" method="POST" onsubmit="showMessage(event)">    
+<input type="hidden" name="_captcha" value="false">    
+<input type="hidden" name="_subject" value="New Appointment Booking Request">    
+    
+<input type="text" name="Full Name" placeholder="Full Name" required>    
+<input type="email" name="Email" placeholder="Email Address" required>    
+<input type="tel" name="Phone Number" placeholder="Phone Number" required pattern="[0-9]{10}">    
+<input type="text" name="Address" placeholder="Full Address" required>    
+    
+<select name="Time Slot" required>    
+<option value="">-- Select Time Slot --</option>    
+<option>10:00 AM – 11:00 AM</option>    
+<option>11:00 AM – 12:00 PM</option>    
+<option>12:00 PM – 01:00 PM</option>    
+<option>01:00 PM – 02:00 PM</option>    
+<option>02:00 PM – 03:00 PM</option>    
+<option>03:00 PM – 04:00 PM</option>    
+<option>04:00 PM – 05:00 PM</option>    
+</select>    
+    
+<textarea name="Legal Issue" placeholder="Briefly describe your legal issue..." required></textarea>    
+    
+<button type="submit">Book Appointment</button>    
+</form>    
+    
+<div class="success" id="successMsg">    
+Thank you. We will respond shortly.    
+</div>    
+</section>    
+    
+<footer>    
+© 2026 Imtiaz Ahmad Khan Advocate | Phoolpur, Azamgarh    
+</footer>    
+    
+<script>    
+function showMessage(e){    
+e.preventDefault();    
+document.getElementById("successMsg").style.display="block";    
+e.target.submit();    
+}    
+</script>    
+    
+</body>    
+</html>
